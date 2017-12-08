@@ -25,3 +25,22 @@ This is a voice recognition bot , sort of like a personal assistant, made this j
 
 ##### Guava v22.0 & v23.0 : https://mvnrepository.com/artifact/com.google.guava/guava/22.0
 
+#### Note : This project was made with Java jdk v1.8_151 , will not work with jdk 9.0_1
+
+### Demonstration : 
+
+#### Live Demonstration : 
+#### UI Demonstration : 
+
+### Screen Shots : 
+
+#### Main : 
+![main in action](https://user-images.githubusercontent.com/29705703/33759294-d4de9524-dc27-11e7-8766-017298184684.png)
+
+#### Main [Expanded] : 
+![main expanded](https://user-images.githubusercontent.com/29705703/33759326-ea6a36b4-dc27-11e7-92b3-6088b414991c.png)
+
+#### Loading : 
+![loading](https://user-images.githubusercontent.com/29705703/33759346-f88f2e16-dc27-11e7-94de-5b7c9d26a474.png)
+
+#### Special Thanks to https://github.com/goxr3plus for inspiring me to make this project :)
