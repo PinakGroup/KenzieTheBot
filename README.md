@@ -29,11 +29,11 @@ This is a voice recognition bot , sort of like a personal assistant, made this j
 
 ### Demonstration : 
 
-#### UI Demonstration : 
+#### UI Demonstration : (click to play)
 
 [![KenzieTheBot UI Demonstration](https://img.youtube.com/vi/62alokrrsRs/0.jpg)](https://youtu.be/62alokrrsRs "KenzieTheBot UI Demonstration")
 
-#### Live Demonstration :
+#### Live Demonstration : (click to play)
 
 [![KenzieTheBot Live Demonstration](https://img.youtube.com/vi/o8sXyg9AHhc/0.jpg)](https://youtu.be/o8sXyg9AHhc "KenzieTheBot Live Demonstration")
 
