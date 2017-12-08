@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kps.kenziethebot.controller.MainController">
+    <children>
+        <MediaView fx:id="backMedia" fitHeight="720.0" fitWidth="1280.0" nodeOrientation="INHERIT" />
+        <JFXButton fx:id="startButton" buttonType="RAISED" layoutX="548.0" layoutY="414.0" onAction="#startButton" prefHeight="70.0" prefWidth="184.0" ripplerFill="WHITE" text="" textAlignment="JUSTIFY" AnchorPane.leftAnchor="548.0" AnchorPane.rightAnchor="548.0">
+            <graphic>
+                <ImageView fitHeight="71.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="https://www.shareicon.net/data/64x64/2015/08/23/89523_mic_512x512.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="closeButton" buttonType="RAISED" layoutX="1250.0" layoutY="14.0" minHeight="16.0" minWidth="16.0" onAction="#closeProgram" prefHeight="16.0" prefWidth="16.0" style="-fx-background-color: red; -fx-background-radius: 40;" text="x" textAlignment="JUSTIFY" textFill="WHITE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="maximizeButton" buttonType="RAISED" layoutX="1226.0" layoutY="14.0" minHeight="16.0" minWidth="16.0" onAction="#maximizeProgram" prefHeight="16.0" prefWidth="16.0" style="-fx-background-color: #00FF00; -fx-background-radius: 40;" text="[]" textAlignment="JUSTIFY" textFill="WHITE" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="14.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </JFXButton>
+        <JFXTextField fx:id="recTextView" focusColor="WHITE" layoutX="330.0" layoutY="349.0" minHeight="30.0" prefHeight="38.0" prefWidth="620.0" unFocusColor="WHITE" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="330.0">
+            <font>
+                <Font name="FiraCode-Regular" size="20.0" />
+            </font>
+            <padding>
+                <Insets left="8.0" />
+            </padding>
+        </JFXTextField>
+        <JFXButton fx:id="minimizeButton" buttonType="RAISED" layoutX="1203.0" layoutY="14.0" minHeight="16.0" minWidth="16.0" onAction="#minimizeProgram" prefHeight="16.0" prefWidth="16.0" style="-fx-background-color: yellow; -fx-background-radius: 40;" text="_" textAlignment="JUSTIFY" textFill="WHITE" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="14.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </JFXButton>
+        <JFXHamburger fx:id="hamAnimation" layoutX="7.0" layoutY="56.0" prefHeight="38.0" prefWidth="56.0" AnchorPane.rightAnchor="1217.0" AnchorPane.topAnchor="56.0" />
+        <VBox fx:id="drawer" layoutX="24.0" layoutY="115.0" prefHeight="544.0" prefWidth="250.0" style="-fx-background-color: rgba(250,250,250,0.2); -fx-background-radius: 40;" translateX="-250.0">
+            <children>
+                <JFXButton fx:id="userIdNavButton" buttonType="RAISED" onAction="#userIdNavButtonClicked" prefHeight="112.0" prefWidth="226.0" ripplerFill="WHITE" text=".">
+                    <VBox.margin>
+                        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                    </VBox.margin>
+                    <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="https://www.shareicon.net/data/128x128/2015/10/03/650430_users_512x512.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="cloudNavButton" buttonType="RAISED" onAction="#cloudNavButtonClicked" prefHeight="112.0" prefWidth="238.0" ripplerFill="WHITE" text=".">
+                    <VBox.margin>
+                        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                    </VBox.margin>
+                    <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="https://www.shareicon.net/data/128x128/2016/07/16/635696_download_60x60.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="aboutNavButton" buttonType="RAISED" onAction="#aboutNavButtonClicked" prefHeight="112.0" prefWidth="238.0" ripplerFill="WHITE" text=".">
+                    <VBox.margin>
+                        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                    </VBox.margin>
+                    <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="https://www.materialui.co/materialIcons/alert/error_outline_black_192x192.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="exitNavButton" buttonType="RAISED" onAction="#exitNavButtonClicked" prefHeight="112.0" prefWidth="238.0" ripplerFill="WHITE" text=".">
+                    <VBox.margin>
+                        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                    </VBox.margin>
+                    <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="https://www.shareicon.net/data/128x128/2016/06/18/596324_exit_512x512.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+            </children>
+        </VBox>
+        <StackPane fx:id="backgroundStackPane" layoutX="13.0" layoutY="13.0" prefHeight="695.0" prefWidth="1253.0" />
+      <HBox fx:id="musicHbox" layoutX="1258.0" layoutY="94.0" prefHeight="88.0" prefWidth="386.0">
+         <children>
+            <ImageView fx:id="musicImage" fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="22.0" right="4.0" top="10.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="https://www.shareicon.net/data/128x128/2016/01/12/701859_music_512x512.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="musicLabel" prefHeight="71.0" prefWidth="292.0" text="" textFill="WHITE">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="9.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </HBox>
+    </children>
+</AnchorPane>
