@@ -76,9 +76,9 @@ public class ResponseProcessing {
 
                                 }
                                 MusicMetaData.instance = MusicDatasource.musicMetaDataList.get(
-                                        13
+                                     new Random().nextInt(18)
                                 );
-                                //new Random().nextInt(18)
+                               
                                 TTS.speak("playing music from your playlist, sir");
                                 Thread.sleep(4000);
 
