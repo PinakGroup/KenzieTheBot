@@ -1,6 +1,6 @@
 # KenzieTheBot
 This is a voice recognition bot , sort of like a personal assistant, made this just out of curiosity :)
-#### Note : follows strict MVC architecture pattern, and please do not fork this project as the code may not compile because some signature files are missing. This project is just for reference :)
+#### Note : follows strict MVC architecture pattern, and please do not fork this project as the code may not compile because some signature files are missing (sorry about that) as github isn't allowing me to upload larger files :(. This project is just for reference :)
 
 #### Libraries used : 
 
