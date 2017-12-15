@@ -19,5 +19,14 @@
     <orderEntry type="library" name="yahoo-weather-java-api-2.0.2-javadoc" level="project" />
     <orderEntry type="library" name="slf4j-api-1.7.25-javadoc" level="project" />
     <orderEntry type="library" name="slf4j-jdk14-1.7.25-javadoc" level="project" />
+    <orderEntry type="library" name="1.7.21" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="selenium-java-3.7.1" level="project" />
+    <orderEntry type="library" name="1.7.251" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="2.0.2" level="project" />
+    <orderEntry type="library" name="1.0.1" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.7" level="project" />
+    <orderEntry type="library" name="1.7.25" level="project" />
   </component>
 </module>
