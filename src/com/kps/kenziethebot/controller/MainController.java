@@ -384,6 +384,7 @@ public class MainController implements GSpeechResponseListener, Initializable {
                     backMedia.setMediaPlayer(mediaPlayer);
 
                     mediaPlayer.play();
+                    mediaPlayer.setCycleCount(MediaPlayer.INDEFINITE);
 
                 });
         backgroundThread.setName("Background Animation Thread");
