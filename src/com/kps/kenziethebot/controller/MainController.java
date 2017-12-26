@@ -42,6 +42,7 @@ public class MainController implements GSpeechResponseListener, Initializable {
     /**
      * This class is the main controller of the whole project.
      */
+
     public static final String API_KEY = "$$ENTER YOUR API KEY HERE$$"; // API_KEY can be generated via google developer console.
     private static Main mainInstance = new Main();
     private final String DEFAULT_BACKGROUND_PATH = getClass().getResource("../view/assets/media/default_background.mp4").toString();
