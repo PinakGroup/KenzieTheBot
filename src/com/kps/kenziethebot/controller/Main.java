@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class Main extends Application {
+
     /**
      * This is the main class of the project.
      * Licenced to : Karan Pratap Singh.
