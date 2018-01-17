@@ -50,7 +50,6 @@ public class Main extends Application {
     public void stop() throws Exception {
 
         super.stop();
-
         DataSource.getInstance().close();
     }
 
