@@ -26,7 +26,6 @@ public class Main extends Application {
         primaryStage.setTitle("Splash");
         primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.setScene(scene);
-
         primaryStage.getIcons().add(viewFactory.getDefaultIcon());
         viewFactory.initMovablePlayer(primaryStage);
         primaryStage.show();
